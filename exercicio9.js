@@ -13,7 +13,7 @@ function exercicio9() {
     } else if (codigoOrigem === 3) {
         console.log('Leste');
     } else if (codigoOrigem === 4) {
-        console.log('O  este');
+        console.log('Oeste');
     } else if (codigoOrigem === 5 || codigoOrigem === 6 || (codigoOrigem >= 25 && codigoOrigem <= 50)) {
         console.log('Nordeste');
     } else if (codigoOrigem === 7 || codigoOrigem === 8 || codigoOrigem === 9) {

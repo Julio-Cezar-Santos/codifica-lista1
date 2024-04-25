@@ -7,9 +7,9 @@ function exercicio7() {
     const numeroMacas = Number(prompt('Digite o número de maçãs compradas: '));
 
     if (numeroMacas < 12) {
-        console.log(`O valor total é R$ ${numeroMacas * 0.30}`);
+        console.log(`O valor total é R$ ${(numeroMacas * 0.30).toFixed(2)}`);
     } else {
-        console.log(`O valor total é R$ ${numeroMacas * 0.25}`);
+        console.log(`O valor total é R$ ${(numeroMacas * 0.25).toFixed(2)}`);
     }
 }
 

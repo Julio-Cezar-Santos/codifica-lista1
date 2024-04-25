@@ -9,12 +9,12 @@ function exercicio6() {
     let lado3 = Number(prompt('Digite o valor do lado 3: '));
 
     if (lado1 < (lado2 + lado3) && lado2 < (lado1 + lado3) && lado3 < (lado1 + lado2)) {
-        if ((lado1 === lado2) || (lado1 === lado3) || (lado2 === lado3)) {
-            console.log('Triângulo Isósceles');
-        } else if ((lado1 === lado2) && (lado1 === lado3)) {
-            console.log('Triângulo Equilátero');
+        if (lado1 === lado2 && lado2 === lado3) {
+            console.log('Triângulo equilátero');
+        } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+            console.log('Triângulo isósceles');
         } else {
-            console.log('Triângulo Escaleno');
+            console.log('Triângulo escaleno');
         }
     } else {
         console.log('Não é um triângulo');

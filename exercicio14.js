@@ -7,7 +7,7 @@ function exercicio14() {
     let contador = 0;
     let soma = 0;
     let numeroDigitado = Number(prompt('Digite um número (digite 0 para encerrar): '));
-
+    
     while (numeroDigitado !== 0) {
         soma += numeroDigitado;
         contador++;
