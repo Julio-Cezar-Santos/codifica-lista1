@@ -13,6 +13,11 @@ function exercicio13() {
                 console.log(`${i} x ${numero} = ${i * numero}`);
 
             }
+
+            // não entendi a questao. se nao for assim é  assim:
+            // for (let i = 1; i <= numero; i++) {
+            //     console.log(`${numero} x ${i} = ${numero * i}`);
+            // }
         } else {
             console.log('Por favor, digite um número inteiro.');
         }
